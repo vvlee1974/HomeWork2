@@ -34,13 +34,14 @@ int GetNumberFromConsole(string message)
 Console.WriteLine("Введите трёхзначное число: ");
 
 //string NumberStr = Console.ReadLine() ?? "";
-int Number = GetNumberFromConsole("Введите трёхзначное число: ");
+int Number = GetNumberFromConsole("");
 
 if(Number >= 100 && Number < 1000)
 {
     int num = Number / 10;
     int num2 = num % 10;
-    Console.WriteLine(num2);
+
+    Console.WriteLine($"{Number} --> {num2}");
 }
 else
 {
