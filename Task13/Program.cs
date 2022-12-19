@@ -62,7 +62,8 @@ else
             int indexLeft = a - 2; // определяем третью цифру слева
             int indexRigth = a - 3; // определяем третью цифру справа
             int digNum = (number % array[indexLeft]) / array[indexRigth];
-            Console.Write($"Третья цифра  ->  {digNum}");
+            //Console.Write($"Третья цифра  ->  {digNum}");
+            Console.Write($"  {digNum}");
             break;
         }
         index++;
