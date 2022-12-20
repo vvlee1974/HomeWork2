@@ -41,7 +41,8 @@ if(Number >= 100 && Number < 1000)
     int num = Number / 10;
     int num2 = num % 10;
 
-    Console.WriteLine($"{Number} --> {num2}");
+    //Console.WriteLine($"{Number} --> {num2}");
+    Console.WriteLine($" {num2}");
 }
 else
 {
